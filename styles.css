@@ -1,0 +1,63 @@
+.today {
+  position: relative;
+  left: 280px;
+  top: -100px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.date {
+  font-weight: thin;
+  font-size: 12px;
+  font-style: italic;
+}
+.currentcity {
+  position: relative;
+  font-size: 18px;
+}
+.currenttemp {
+  position: relative;
+  font-size: 42px;
+  top: 10px;
+}
+.future {
+  position: relative;
+  left: 300px;
+  top: -85px;
+  font-style: italic;
+  font-size: 24px;
+}
+.currenticon {
+  position: relative;
+  top: -50px;
+  font-size: 60px;
+}
+.futureicon {
+  position: relative;
+  top: -140px;
+  left: 350px;
+  font-size: 60px;
+}
+.futureforecast {
+  position: relative;
+  top: -100px;
+  font-size: 18px;
+}
+.emoji {
+  font-size: 42px;
+}
+
+.trial {
+  font-size: 42px;
+}
+
+.button {
+  position: relative;
+  top: -30px;
+}
+.currentlocation {
+  display: block;
+  position: relative;
+  left: 70px;
+  background: white;
+  border-radius: 100px;
+}
