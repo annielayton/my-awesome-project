@@ -49,9 +49,8 @@ function handleSubmit(event) {
   search(city);
 }
 
-let searchCity = document.querySelector("#searchCity");
-let button = document.querySelector("#button-addon2");
-button.addEventListener("submit", handleSubmit);
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", handleSubmit);
 
 function convertCelcius(event) {
   event.preventDefault();
